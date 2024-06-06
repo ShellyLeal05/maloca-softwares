@@ -69,6 +69,6 @@ sudo apt-get -y install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxs
 echo_blue "curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh"
 curl -o anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 echo_blue "bash ./anaconda.sh"
-bash bash ./anaconda.sh
+bash anaconda.sh
 
 echo_blue "Foi!"
