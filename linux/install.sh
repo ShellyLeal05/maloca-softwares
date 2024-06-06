@@ -23,6 +23,8 @@ echo_blue "sudo snap install flutter --classic"
 sudo snap install flutter --classic
 echo_blue "sudo snap install android-studio --classic"
 sudo snap install android-studio --classic
+echo_blue "sudo snap install rpi-imager"
+sudo snap install rpi-imager
 
 echo_blue "sudo apt install -y build-essential"
 sudo apt install -y build-essential
@@ -48,11 +50,6 @@ echo_blue "chmod +x creality.AppImage"
 chmod +x creality.AppImage
 echo_blue "mv ./creality.AppImage ~/Desktop/"
 mv creality.AppImage ~/Desktop/
-
-echo_blue "curl -o rasberrypi.deb https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb"
-curl -o rasberrypi.deb https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
-echo_blue "sudo apt install -y ./rasberrypi.deb"
-sudo apt install -y ./rasberrypi.deb
 
 echo_blue "curl -o chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 curl -o chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
