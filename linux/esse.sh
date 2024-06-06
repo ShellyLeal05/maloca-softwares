@@ -30,6 +30,8 @@ echo_blue "sudo apt install -y default-jdk"
 sudo apt install -y default-jdk && /
 echo_blue "sudo apt install -y python3"
 sudo apt install -y python3 && /
+echo_blue "sudo apt install -y python3-pip3"
+sudo apt install -y python3-pip3 && /
 echo_blue "sudo apt install -y git-all"
 sudo apt install -y git-all && /
 echo_blue "sudo apt install -y ubuntu-restricted-extras"
@@ -57,20 +59,20 @@ curl -o chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_curre
 echo_blue "sudo apt install -y ./chrome.deb"
 sudo apt install -y ./chrome.deb && /
 
-echo_blue "pip install notebook"
-pip install notebook && /
-echo_blue "pip install numpy"
-pip install numpy && /
-echo_blue "pip install scikit-learn"
-pip install scikit-learn && /
-echo_blue "pip install pandas"
-pip install pandas && /
-echo_blue "pip install tensorflow[and-cuda]"
-pip install tensorflow[and-cuda] && /
-echo_blue "pip install seaborn"
-pip install seaborn && /
-echo_blue "pip install matplotlib"
-pip install matplotlib && /
+echo_blue "pip3 install notebook"
+pip3 install notebook && /
+echo_blue "pip3 install numpy"
+pip3 install numpy && /
+echo_blue "pip3 install scikit-learn"
+pip3 install scikit-learn && /
+echo_blue "pip3 install pandas"
+pip3 install pandas && /
+echo_blue "pip3 install tensorflow[and-cuda]"
+pip3 install tensorflow[and-cuda] && /
+echo_blue "pip3 install seaborn"
+pip3 install seaborn && /
+echo_blue "pip3 install matplotlib"
+pip3 install matplotlib && /
 
 echo_blue "sudo apt-get -y install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6"
 sudo apt-get -y install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 && /
