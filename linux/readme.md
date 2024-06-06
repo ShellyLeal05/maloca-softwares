@@ -1,6 +1,6 @@
 # Como instalar
 
 ```
-chmod +x esse.sh
-sudo ./esse.sh
+chmod +x install.sh
+sudo ./install.sh
 ```
