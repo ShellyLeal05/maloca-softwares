@@ -25,7 +25,7 @@ echo_blue "sudo snap install android-studio --classic"
 sudo snap install android-studio --classic
 
 echo_blue "sudo apt install -y build-essential"
-sudo apt install -y build-essentials
+sudo apt install -y build-essential
 echo_blue "sudo apt install -y default-jdk"
 sudo apt install -y default-jdk
 echo_blue "sudo apt install -y python3"
