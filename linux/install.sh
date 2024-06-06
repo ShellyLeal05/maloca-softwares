@@ -42,8 +42,8 @@ sudo apt install -y gimp
 echo_blue "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-echo_blue "curl -o creality.Appimage https://file2-cdn.creality.com/file/05a4538e0c7222ce547eb8d58ef0251e/Creality_Print-v4.3.7.6627-x86_64-Release.AppImage"
-curl -o creality.Appimage https://file2-cdn.creality.com/file/05a4538e0c7222ce547eb8d58ef0251e/Creality_Print-v4.3.7.6627-x86_64-Release.AppImage
+echo_blue "curl -o creality.AppImage https://file2-cdn.creality.com/file/05a4538e0c7222ce547eb8d58ef0251e/Creality_Print-v4.3.7.6627-x86_64-Release.AppImage"
+curl -o creality.AppImage https://file2-cdn.creality.com/file/05a4538e0c7222ce547eb8d58ef0251e/Creality_Print-v4.3.7.6627-x86_64-Release.AppImage
 echo_blue "chmod +x creality.AppImage"
 chmod +x creality.AppImage
 echo_blue "mv ./creality.AppImage ~/Desktop/"
