@@ -31,7 +31,7 @@ sudo apt install -y default-jdk
 echo_blue "sudo apt install -y python3"
 sudo apt install -y python3
 echo_blue "sudo apt install -y python3-pip"
-sudo apt install -y python3-pip3
+sudo apt install -y python3-pip
 echo_blue "sudo apt install -y git-all"
 sudo apt install -y git-all
 echo_blue "sudo apt install -y ubuntu-restricted-extras"
