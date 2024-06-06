@@ -26,6 +26,8 @@ sudo snap install android-studio --classic
 echo_blue "sudo snap install rpi-imager"
 sudo snap install rpi-imager
 
+echo_blue "sudo apt install -y curl"
+sudo apt install -y curl
 echo_blue "sudo apt install -y build-essential"
 sudo apt install -y build-essential
 echo_blue "sudo apt install -y default-jdk"
