@@ -24,7 +24,7 @@ sudo snap install flutter --classic && /
 echo_blue "sudo snap install android-studio --classic"
 sudo snap install android-studio --classic && /
 
-echo_blue "sudo apt install -y build-essentials"
+echo_blue "sudo apt install -y build-essential"
 sudo apt install -y build-essentials && /
 echo_blue "sudo apt install -y default-jdk"
 sudo apt install -y default-jdk && /
